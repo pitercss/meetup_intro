@@ -1,0 +1,41 @@
+.shower {
+  --slide-ratio: calc(16 / 9);
+}
+
+.slide.intro {
+  background-color: #0094da;
+}
+.slide.intro .cover {
+  max-width: 80%;
+}
+
+.slide.we-are .raising-hand {
+  display: inline-block;
+  vertical-align: middle;
+  height: 2em;
+}
+
+.slide.who-wants .raising-hand {
+  display: inline-block;
+  vertical-align: middle;
+  height: 1em;
+}
+
+.slide.first-time {
+  padding-left: 25%;
+}
+.slide.first-time .first-time-text {
+  font-size: 75px;
+}
+.slide.first-time .raising-hand {
+  width: 25%;
+} 
+
+.slide.socials li:before {
+  color: transparent;
+}
+.slide.socials .social-icon {
+  width: 30px;
+  height: 30px;
+  vertical-align: text-bottom;
+}

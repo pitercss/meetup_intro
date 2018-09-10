@@ -1,0 +1,37 @@
+:root {
+  --color-brand: rgba(0, 148, 218, 1);
+  --color-white: rgba(255, 255, 255, 1);
+}
+
+.slide {
+  font-family: "GothamPro";
+}
+
+.slide a {
+  color: var(--color-brand);
+  text-decoration-line: underline;
+  text-decoration-color: rgba(0, 148, 218, 0.15);
+  background-image: none;
+  transition: text-decoration-color .2s ease-in-out;
+}
+.slide a:hover {
+  text-decoration-color: rgba(0, 148, 218, 0.35);
+}
+
+.slide h2,
+.caption h1 {
+  font-family: "GothamPro-Bold";
+}
+
+.slide h2 {
+  color: var(--color-brand);
+}
+
+.slide.black h2 {
+  color: var(--color-white);
+  text-shadow: 0 0 3px #000;
+}
+
+.progress::before {
+  background-color: var(--color-brand);
+}
