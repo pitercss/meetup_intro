@@ -1,5 +1,8 @@
 @font-face {
-  font-family: 'GothamPro';
+  font-family: 'Gotham Pro';
+  font-weight: 400;
+  font-display:fallback;
+  font-style: normal;
   src: url('GothamPro.eot?') format('eot'), 
        url('GothamPro.otf')  format('opentype'),
        url('GothamPro.woff') format('woff'), 
@@ -8,10 +11,13 @@
 }
 
 @font-face {
-	font-family: 'GothamPro-Bold';
-	src: url('GothamPro-Bold.eot?') format('eot'), 
-	     url('GothamPro-Bold.otf')  format('opentype'),
-	     url('GothamPro-Bold.woff') format('woff'), 
-	     url('GothamPro-Bold.ttf')  format('truetype'),
-	     url('GothamPro-Bold.svg#GothamPro-Bold') format('svg');
+  font-family: 'Gotham Pro';
+  font-weight: 700;
+  font-display:fallback;
+  font-style: normal;
+  src: url('GothamPro-Bold.eot?') format('eot'), 
+       url('GothamPro-Bold.otf')  format('opentype'),
+       url('GothamPro-Bold.woff') format('woff'), 
+       url('GothamPro-Bold.ttf')  format('truetype'),
+       url('GothamPro-Bold.svg#GothamPro-Bold') format('svg');
 }

@@ -1,10 +1,13 @@
 :root {
   --color-brand: rgba(0, 148, 218, 1);
   --color-white: rgba(255, 255, 255, 1);
+  --color-black: #303b40;
 }
 
+.shower,
 .slide {
-  font-family: "GothamPro";
+  font-family: "Gotham Pro", "Verdana", sans-serif;
+  color: var(--color-black);
 }
 
 .slide a {
@@ -20,11 +23,14 @@
 
 .slide h2,
 .caption h1 {
-  font-family: "GothamPro-Bold";
+  font-family: "Gotham Pro", "Verdana", sans-serif;
 }
 
 .slide h2 {
   color: var(--color-brand);
+  font-size: 60px;
+  letter-spacing: -.02em;
+  text-transform: lowercase;
 }
 
 .slide.black h2 {
